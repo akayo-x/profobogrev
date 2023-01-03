@@ -1,0 +1,77 @@
+header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 84px;
+    color: white;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+}
+h2 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63.07px;
+    color: black;
+    letter-spacing: 0.03em;
+}
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0px;
+}
+
+section {
+    display: block;
+}
+
+.container {
+    max-width: 1438px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.disable--checbox {
+    display: none;
+}
+html {
+    &.no-scroll {
+        position: fixed;
+        overflow-y: scroll;
+        width: 100%;
+    }
+    font-family: "PT Sans", sans-serif;
+}
